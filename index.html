@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Erick Rojas - Portfolio</title>
+</head>
+
+<body>
+    <header id="top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#top">
+                        Erick Rojas
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">&gt; about</a></li>
+                        <li><a href="#skills">/skills</a></li>
+                        <li><a href="#projects">/projects</a></li>
+                        <li><a href="#contact">/contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://gravatar.com/6a223c7d1235615e9903262aec852fc0" target="_blank">
+                                <img src="https://gravatar.com/avatar/6a223c7d1235615e9903262aec852fc0?s=28" class="img-circle" title="Erick Rojas">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/erickthered" target="_blank">
+                                <i class="fa fa-2x fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/erickthered" target="_blank">
+                                <i class="fa fa-2x fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/erickthered" target="_blank">
+                                <i class="fa fa-2x fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="container">
+            <h1 class="text-center">Erick Rojas</h1>
+            <h2 class="text-center">I help dreams come true.</h2>
+            <p class="text-center">
+                | <a href="#about" title="About me">About me</a> | <a href="#skills" title="Skills">Skills</a> | <a href="#projects" title="Projects">Projects</a> | <a href="#contact" title="Contact">Contact</a> |
+            </p>
+        </div>
+    </header>
+    <section id="about">
+        <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+                <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" style="background-image: url('/portfolio/img/721.jpg');">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Here's what I do</h1>
+                            <p>I speak binary and make digital stuff. I love to help people to make their dreams come true, as my client, all you have to do imagine what you want, and I'll handle the rest!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('/portfolio/img/2.jpg');">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Web Developer</h1>
+                            <p>Over 15 years of experience in web development (yes, I got to use mosaic and netscape) allow me to say that I speak spanish, english, HTML and css natively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url('/portfolio/img/729.jpg');">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>App Developer</h1>
+                            <p>I've created several hybrid apps running on top of Cordova and Ionic Framework.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h3>/skills </h3>
+            <p>I enjoy working with most programming languages and frameworks, but specially I love these technologies:</p>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> PHP</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>5.3+ (But I prefer 7.0)</li>
+                            <li>Zend Framework 1/2/3</li>
+                            <li>Symfony 2/3</li>
+                            <li>Laravel</li>
+                            <li>Magento</li>
+                            <li>CodeIgniter</li>
+                            <li>Slim</li>
+                            <li>ToroPHP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> Python</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Python 2/3</li>
+                            <li>Django</li>
+                            <li>Flask</li>
+                            <li>Jupyter</li>
+                            <li>SciPy</li>
+                            <li>NumPy</li>
+                            <li>PIL</li>
+                            <li>MoviePy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> Javascript &amp; NodeJS</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Angular</li>
+                            <li>jQuery</li>
+                            <li>EmberJS</li>
+                            <li>ReactJS</li>
+                            <li>Express</li>
+                            <li>Phantom</li>
+                            <li>Many Libraries: Moment, Socket.io, VideoJS, etc.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> Html &amp; CSS</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Sass</li>
+                            <li>LESS</li>
+                            <li>Bower</li>
+                            <li>Grunt</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> Hybrid Apps</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Cordova</li>
+                            <li>Ionic Framework</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default my-panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="glyphicon glyphicon-wrench"></i> Other</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Languages: C, C++, C#, R, Pascal, Perl</li>
+                            <li>SysAdmin: AWS, Heroku, Azure</li>
+                            <li>Git, Mercurial &amp; Subversion</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h3>/projects</h3>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 projects-container">
+                    <div class="row project">
+                        <div class="col-md-3">
+                            <img src="/portfolio/img/project001.jpg" class="img-thumbnail" title="Wabii" alt="Wabii - Content Management System">
+                        </div>
+                        <div class="col-md-9">
+                            <h4><i class="fa fa-folder"></i> Wabii - Content Management System</h4>
+                            <p>Multi-tenant SaaS based on Zend Framework with custom templates built for each client.  Each template has it's own automated building process and may use Bootstrap, AngularJS or EmberJS.</p>
+                            <p>Implements several different caching techniques and it's blazing fast!</p>
+                            <div class="col-sm-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="PHP 5.6<br>MySQL 5.5 Master-Slave<br>Memcached<br>" data-html="true" data-placement="bottom">Back end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="Admin:<br>Bootstrap 3.3<br>Fontawesome<br>TinyMCE<br>Metis Menu</br>" data-html="true" data-placement="bottom">Front end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="VPS Servers<br>Ubuntu 14.04 LTS<br>LE SSL" data-html="true" data-placement="bottom">Infrastructure</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row project">
+                        <div class="col-md-3">
+                            <img src="/portfolio/img/project002.jpg" class="img-thumbnail" title="Lovvers" alt="Lovvers - Hybrid App">
+                        </div>
+                        <div class="col-md-9">
+                            <h4><i class="fa fa-folder"></i> Lovvers - Hybrid App</h4>
+                            <p>API centric app that also has an Admin Interface.</p>
+                            <p>The API queries a MySQL database that's managed via the admin interface, both are writen in PHP 5.6.  The app is powered by Ionic Framework.</p>
+                            <div class="col-sm-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="PHP 7.0<br>MySQL 5.6<br>Filesystem Cache<br>" data-html="true" data-placement="bottom">Back end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="Ionic Framework" data-html="true" data-placement="bottom">Front end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="VPS Servers<br>LE SSL" data-html="true" data-placement="bottom">Infrastructure</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row project">
+                        <div class="col-md-3">
+                            <img src="/portfolio/img/project003.jpg" class="img-thumbnail" title="Maguaré" alt="Maguaré">
+                        </div>
+                        <div class="col-md-9">
+                            <h4><i class="fa fa-folder"></i> Maguaré</h4>
+                            <p>A colombian government website targeted at kids in the early childhood.  This site was very slow and had a legacy Javascript code with really bad practices.</p>
+                            <p>My job was to rewrite the Javascript engine making it backward compatible so that all contents, activities, videos and audios would still work. After I rewrote the engine, the site loaded over 66% faster and made less than 3% of
+                            request to the server.</p>
+                            <div class="col-sm-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="XML files" data-html="true" data-placement="bottom">Back end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="Custom JS<br>jQuery" data-html="true" data-placement="bottom">Front end</button>
+                            </div>
+                            <div class="col-md-2 col-sm-offset-1">
+                                <button class="btn btn-xs btn-block btn-primary" data-toggle="popover" data-content="cPanel website" data-html="true" data-placement="bottom">Infrastructure</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h3>Drop me a line! <i class="glyphicon glyphicon-envelope"></i></h3>
+            <p>Do you have a question? don't hesitate to contact me:</p>
+            <div class="row methods-container">
+                <div class="col-sm-3 col-xs-6 methods">
+                    <a href="https://github.com/erickthered">
+                        <i class="fa fa-4x fa-github"></i><br>
+                        Github
+                    </a>
+                </div>
+                <div class="col-sm-3 col-xs-6 methods">
+                    <a href="https://twitter.com/erickthered">
+                        <i class="fa fa-4x fa-twitter"></i><br>
+                        Twitter
+                    </a>
+                </div>
+                <div class="col-sm-3 col-xs-6 methods">
+                    <a href="https://facebook.com/erickthered">
+                        <i class="fa fa-4x fa-facebook"></i><br>
+                        Facebook
+                    </a>
+                </div>
+                <div class="col-sm-3 col-xs-6 methods">
+                    <a href="https://linkedin.com/in/erickthered">
+                        <i class="fa fa-4x fa-linkedin"></i><br>
+                        Linked In
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="text-right">
+                Portfolio Template
+                <br> https://github.com/erickthered/portfolio
+                <br> Author: Erick Rojas
+                <br> License: MIT
+                <br>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+</body>
+
+</html>
